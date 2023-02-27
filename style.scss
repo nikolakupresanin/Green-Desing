@@ -1,0 +1,21 @@
+/*$myColor:blue;
+$myFontSize:24px;
+$myWidth:500px;
+
+.main{
+    font-size: 22px;
+    color: $myColor;
+}
+
+@mixin fonts{
+    font-weight: bold;
+}
+
+p{
+    @extend .main;
+    @include fonts;
+}
+
+*/
+//@include ide sa mixin dok @extend spajamo sa postojecom klasom
+
